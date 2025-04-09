@@ -144,24 +144,21 @@ Permet de visualiser géographiquement les régions du monde les plus affectées
 
 ---
 
-### 4. Graphique de régression linéaire : Corrélation entre deux variables
+### 4. Violin Plot : Distribution du nombre de suicides par niveau d'éducation
 
-Ce graphique montre la relation entre la consommation d'alcool et le nombre de suicides par pays.
-Ce diagramme permet de détecter s’il existe une corrélation linéaire entre deux facteurs.
+Ce graphique en violon montre la distribution du nombre de suicides pour chaque groupe de niveau d'éducation (Faible, Moyenne, Élevée, Très Élevée).
+Il permet de visualiser à la fois la médiane, la dispersion et la densité des données pour chaque catégorie d'éducation.
 
----
-
-### 5. Histogramme : Distribution d'une variable
-
-L'histogramme présente la distribution de l'espérance de vie (Life_expectancy) dans les données.
-on peut ainsi comprendre la répartition de l'espérance de vie dans les différents pays/années.
+Ce graphique est particulièrement utile pour observer comment les suicides varient selon le niveau d'études atteint.
 
 ---
 
-### 6. Scatter Plot coloré par groupe de scolarisation
+### 5. Diagramme cumulatif : Influence du niveau d'éducation sur le taux de suicide
 
-Ce nuage de points présente la relation entre le niveau moyen de scolarisation et le nombre de suicides, colorée par groupe d'années d'études (Faible, Moyenne, Élevée, Très Élevée).
-Il nous permet d'observer comment l'éducation pourrait influencer le taux de suicide.
+Ce diagramme combine un bar plot et une courbe cumulative pour montrer l'influence du niveau d'éducation sur le taux de suicide (nombre de suicides pour 100 000 habitants).
+Les barres représentent le taux moyen de suicides pour chaque groupe de scolarisation, tandis que la courbe montre la contribution cumulée de chaque groupe au total.
+
+Ce graphique met en évidence l'impact progressif du niveau d’éducation sur la tendance globale des suicides.
 
 ---
 
