@@ -2,9 +2,11 @@ name: Lint - Flake8 Code Check
 
 on:
   push:
+    branches: [ brenhines ]
     paths:
       - '**/*.ipynb'
   pull_request:
+    branches: [ main ]
     paths:
       - '**/*.ipynb'
 
