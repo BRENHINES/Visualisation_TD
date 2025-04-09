@@ -1,0 +1,36 @@
+name: Lint - Flake8 Code Check
+
+on:
+  push:
+    branches: [ brenhines ]
+    paths:
+      - '**/*.ipynb'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - '**/*.ipynb'
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Cloner le projet
+      uses: actions/checkout@v3
+
+    - name: Installer Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Installer Flake8 et black
+      run: |
+        pip install flake8 black
+
+    - name: Lancer Flake8 avec des règles spéciales
+      run: |
+        flake8 . --filename=*.ipynb --ignore=E501,E121,F821
+
+    - name: Lancer Black sur tous les fichiers .ipynb à la racine
+      run: |
+        black --check .
