@@ -200,4 +200,5 @@ Ces analyses visuelles ont permis de dégager plusieurs enseignements clés :
 - Le niveau d'éducation et certains facteurs socio-économiques semblent être liés aux variations de ces taux,
 - L’évolution temporelle montre des dynamiques qui peuvent être corrélées à des contextes socio-économiques globaux.
 
+
 Enfin, ce projet illustre l'importance de la visualisation de données dans l'analyse exploratoire : rendre les données visibles permet de mieux comprendre et communiquer des réalités souvent complexes.
